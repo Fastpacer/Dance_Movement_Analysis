@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: dance-movement-analysis
+    env: docker
+    docker:
+      dockerfile: Dockerfile
+    envVars:
+      - key: PYTHONPATH
+        value: /app
+    port: 8000
