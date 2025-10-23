@@ -4,7 +4,7 @@ from fastapi.middleware.cors import CORSMiddleware
 import os
 import uuid
 import shutil
-from movement_analysis import DanceMovementAnalyzer
+from app.movement_analysis import DanceMovementAnalyzer
 import json
 
 app = FastAPI(
