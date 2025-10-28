@@ -26,6 +26,8 @@ app/
 ├── requirements.txt        # Python dependencies
 ├── Dockerfile             # Container configuration
 └── supervisord.conf       # Process manager config
+
+
 🐳 Docker Deployment
 Build and Push
 bashdocker build -t dance-app .
@@ -67,4 +69,5 @@ Check logs: docker logs -f dance-app
 Streamlit UI: http://YOUR-IP
 API docs: http://YOUR-IP:8000/docs
 Health check: http://YOUR-IP:8000/health
+
 
